@@ -6,7 +6,7 @@ import LandingPage from './pages/LandingPage'
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='/hcdemo/'>
             <Routes>
                 <Route path="/" element={<LandingPage />} />
             </Routes>
