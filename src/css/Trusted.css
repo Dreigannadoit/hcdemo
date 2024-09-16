@@ -1,0 +1,54 @@
+.carousel_container{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 20%;
+
+    padding: 10% 0;
+}
+
+.carousel_container h1{
+    color: var(--color-nuetral);
+    font-size: 3vw;
+}
+
+.cards_con{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.cards_con .c_1 {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 200%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 90px;
+}
+
+
+.cards_con .c_1 img{
+    height: 90px;
+}
+
+.cards_con .c_1 {
+    animation: slide 50000ms 0ms linear infinite;
+}
+
+@keyframes slide {
+    0% {
+      left: 0%;
+    }
+    100% {
+      left: -200%;
+    }
+}

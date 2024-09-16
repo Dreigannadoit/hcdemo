@@ -1,0 +1,45 @@
+.about{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 5%;
+    margin: 55px 0;
+}
+
+@media only screen 
+   and (min-width : 1200px) {
+    .about{
+        margin: 10% 0;
+    }
+}
+
+@media only screen 
+   and (min-width : 1600px) {
+    .about{
+        margin: 0% 0;
+    }
+}
+
+.about .content{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+.about .content p{
+    margin: 5px 0;
+}
+
+.about img{
+    height: 100%;
+    width: 50%;
+    object-fit: contain;
+}

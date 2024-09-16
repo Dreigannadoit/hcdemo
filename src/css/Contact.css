@@ -1,0 +1,116 @@
+.contact{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.contact .form_side{
+    height: 100%;
+    width: 50%;
+}
+
+.contact .form_side form{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.contact .form_side form .client_name{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.contact .form_side form input,
+.contact .form_side form .client_name input,
+.contact .form_side form textarea{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2%;
+}
+
+.contact .form_side form textarea{
+    height: 50%;
+}
+
+.contact .links_side{
+    height: 100%;
+    width: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.contact .links_side>div{
+    height: 15%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact .links_side>div div{
+    height: 100%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.contact .links_side>div div h1{
+    font-size: 1.3vw;
+    margin-bottom: 4%;
+}
+
+.contact .links_side > div div a.cta {
+    font-size: 1vw;
+}
+
+.contact .links_side > div div a:not(.cta) {
+    text-decoration: underline;
+}
+
+.contact .links_side>div .socials{
+    width: 100%;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.contact .links_side>div .socials .link{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.contact .links_side>div .socials .link img{
+    filter: invert(100%)
+}

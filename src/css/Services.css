@@ -1,0 +1,43 @@
+section.services{
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+
+.blocks{
+    margin-top: 5%;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.blocks .block{
+    width: 31%;
+    height: 100%;
+
+    background-color: var(--color-white);
+    border-top-left-radius: 50px;
+    overflow: hidden;
+    padding: 3%;
+}
+
+.blocks .block img{
+    height: 20%;
+}
+
+.blocks .block h1{
+    color: var(--color-nuetral);
+    font-size: 30px;
+}
+
+.blocks .block ul{
+    width: 90%;
+    margin:1em;
+}
