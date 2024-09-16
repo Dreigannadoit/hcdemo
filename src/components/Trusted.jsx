@@ -1,5 +1,4 @@
 import React from 'react'
-import Slider from 'infinite-react-carousel';
 import { cardDetails } from '../constants';
 import '../css/Trusted.css'
 
