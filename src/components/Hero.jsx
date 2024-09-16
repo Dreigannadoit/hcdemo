@@ -4,7 +4,6 @@ import { logo_row_white } from '../assets/logo'
 import { hero } from '../assets/img'
 import { socials } from "../constants"
 import '../css/Hero.css'
-import Nav from '../parts/Nav'
 
 const Hero = () => {
   return (

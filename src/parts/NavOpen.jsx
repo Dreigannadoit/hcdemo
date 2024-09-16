@@ -10,9 +10,9 @@ const NavOpen = ({ isNavOpen, navExit }) => {
       <div className="container">
         <div className="nav_top">
 
-          <div className="logo">
+          <a onClick={navExit} href="#hero" className="logo">
             <img src={logo_row} alt="" />
-          </div>
+          </a>
 
           <ul>
             <li>
