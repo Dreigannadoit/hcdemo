@@ -8,7 +8,7 @@ import Nav from '../parts/Nav'
 
 const Hero = () => {
   return (
-    <section className='hero'>
+    <section className='hero' id='hero'>
       <div className="top padding_side">
         <img src={ logo_row_white } alt="*hero header*" />
       </div>

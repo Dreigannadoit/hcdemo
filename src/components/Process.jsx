@@ -13,8 +13,8 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 const Process = () => {
   return (
-    <section className="process">
-      <div className="padding_side">
+    <section className="process" >
+      <div className="padding_side" id='process'>
         <TitleHead header="A Streamlined Approach to an Effective Business "/>
       </div>
 
@@ -41,7 +41,7 @@ const Process = () => {
 
       </div>
 
-      <div className="testi padding_side">
+      <div className="testi padding_side" id='testi'>
         <TitleHead header="Hear from Our Clients"/>
 
         <Swiper

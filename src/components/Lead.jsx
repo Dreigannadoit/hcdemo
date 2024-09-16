@@ -6,7 +6,7 @@ import { leads } from '../constants';
 
 const Lead = ({ onLeadClick }) => {
   return (
-    <section className="lead padding_side">
+    <section className="lead padding_side" id='lead'>
       <div className="container">
         <TitleHead header="Our Leadership"/>
 

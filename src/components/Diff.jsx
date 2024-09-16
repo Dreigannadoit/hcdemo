@@ -3,7 +3,7 @@ import "../css/Diff.css";
 
 const Diff = () => {
   return (
-    <section className="diff padding_side">
+    <section className="diff padding_side" id='diff'>
       <div className="content">
         <div className="header">
           <h1>Our difference...</h1>

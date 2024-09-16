@@ -32,7 +32,7 @@ const LandingPage = () => {
   return (
     <>
       <Nav onHamClick={ toggleNav } />
-      <NavOpen isNavOpen={ isNavOpen } />
+      <NavOpen isNavOpen={ isNavOpen } navExit={toggleNav}/>
       <Hero />
       <Services />
       <Skills />

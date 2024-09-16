@@ -5,7 +5,7 @@ import TitleHead from '../parts/TitleHead'
 
 const Services = () => {
   return (
-    <section className='padding_side services'>
+    <section className='padding_side services' id='services'>
       <TitleHead header="Services" subheader="CHOOSE YOUR Virtual Assistant’s"/>
 
       <div className="blocks poppins-regular">

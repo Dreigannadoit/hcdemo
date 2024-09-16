@@ -6,7 +6,7 @@ import TitleHead from '../parts/TitleHead';
 
 const Contact = () => {
   return (
-    <section className='contact padding_side'>
+    <section className='contact padding_side' id='contact'>
 
       <div className="form_side">
         <span>CONRACT FORM</span>

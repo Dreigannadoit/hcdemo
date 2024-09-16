@@ -4,7 +4,7 @@ import { logo_row } from "../assets/logo";
 import { exit_btn } from "../assets/icons";
 import { socials } from "../constants";
 
-const NavOpen = ({ isNavOpen }) => {
+const NavOpen = ({ isNavOpen, navExit }) => {
   return (
     <div className={`nav_active ${isNavOpen ? "active" : ""}`}>
       <div className="container">
@@ -16,28 +16,28 @@ const NavOpen = ({ isNavOpen }) => {
 
           <ul>
             <li>
-              <a href="#">Services</a>
+              <a onClick={navExit} href="#services">Services</a>
             </li>
             <li>
-              <a href="#">Virtual Assistant’s Skill Set</a>
+              <a onClick={navExit} href="#skills">Virtual Assistant’s Skill Set</a>
             </li>
             <li>
-              <a href="#">Process</a>
+              <a onClick={navExit} href="#process">Process</a>
             </li>
             <li>
-              <a href="#">Testimonial</a>
+              <a onClick={navExit} href="#testi">Testimonial</a>
             </li>
             <li>
-              <a href="#">Vision, Mission, Core Values</a>
+              <a onClick={navExit} href="#mvcv">Vision, Mission, Core Values</a>
             </li>
             <li>
-              <a href="#">Our Story </a>
+              <a  onClick={navExit}href="#about">Our Story </a>
             </li>
             <li>
-              <a href="#">Meet the Team</a>
+              <a onClick={navExit} href="#lead">OUR LEADERSHIP</a>
             </li>
             <li>
-              <a href="#">Contact Us </a>
+              <a onClick={navExit} href="#contact">Contact Us </a>
             </li>
           </ul>
         </div>

@@ -138,6 +138,12 @@ body:has(.nav_active.active) .ham .meat div:nth-child(3){
     gap: 3%;
     padding-top: 5%;
     list-style: none;
+
+    text-transform: capitalize;
+}
+
+.nav_active .container ul a{
+    text-transform: uppercase;
 }
 
 .nav_active .container .logo img{

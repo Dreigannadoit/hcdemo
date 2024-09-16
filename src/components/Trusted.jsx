@@ -4,7 +4,7 @@ import '../css/Trusted.css'
 
 const Trusted = () => {
   return (
-    <section className="carousel_container">
+    <section className="carousel_container"  id='trusted'>
       <h1 className='poppins-semibold'>
         Trusted by
       </h1>

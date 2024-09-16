@@ -5,7 +5,7 @@ import { core_val, mission, vision } from "../assets/icons";
 
 const MVCV = () => {
   return (
-    <section className="mvcv padding_side">
+    <section className="mvcv padding_side"  id='mvcv'>
       <div className="content">
         <div className="block text-justify">
           <TitleHead header="Mission" />

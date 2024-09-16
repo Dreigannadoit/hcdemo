@@ -21,7 +21,7 @@ const Skills = () => {
   };
 
   return (
-    <section className="skills padding_side">
+    <section className="skills padding_side" id='skills'>
       <div className="skill_container">
         <TitleHead
           header="Your Virtual Assistant’s Skill Set"

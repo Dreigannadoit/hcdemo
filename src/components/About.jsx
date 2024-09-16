@@ -5,7 +5,7 @@ import { about } from '../assets/img'
 
 const About = () => {
   return (
-    <section className="about padding_side poppins-regular">
+    <section className="about padding_side poppins-regular" id='about'>
       <div className="content text-justify">
         <TitleHead header="How We Started?" />
         <br />
