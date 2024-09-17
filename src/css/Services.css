@@ -43,6 +43,11 @@ section.services{
     font-size: 30px;
 }
 
+.blocks .block h1.more{
+    font-size: 20px;
+}
+
+
 .blocks .block ul{
     width: 90%;
     margin:1em;

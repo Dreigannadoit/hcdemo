@@ -66,7 +66,8 @@ export const services = [
             "Leadership Development",
             "Training Library",
             "Access to 1:1 coaching for VA",
-        ]
+        ],
+        cta: "",
     },
     {
         icon: prt_va,
@@ -80,8 +81,9 @@ export const services = [
             "Interview and Select Your VA",
             "Monthly Check-Ins",
             "Monthly VA Group Training",
-        ]
-    },,
+        ],
+        cta: "",
+    },
     {
         icon: prt_va,
         title : "Project Based",
@@ -92,7 +94,9 @@ export const services = [
         info: [
             "No contract",
             "No interviews"
-        ]
+        ],
+        cta: "Schedule Discovery Call",
+        cta_btn: "ARE WE THE ONE?", // Store text for the CTA
     },
 ];
 

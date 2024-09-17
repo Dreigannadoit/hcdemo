@@ -15,7 +15,7 @@ const Process = () => {
   return (
     <section className="process" >
       <div className="padding_side" id='process'>
-        <TitleHead header="A Streamlined Approach to an Effective Business "/>
+        <TitleHead header="Culture-Driven Hiring for Lasting Success"/>
       </div>
 
       <div className="step_container padding_r_side">
