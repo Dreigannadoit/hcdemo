@@ -5,7 +5,7 @@ import { core_val, mission, vision } from "../assets/icons";
 
 const MVCV = () => {
   return (
-    <section className="mvcv padding_side"  id='mvcv'>
+    <section className="mvcv padding_side" id="mvcv">
       <div className="content">
         <div className="block text-justify">
           <TitleHead header="Mission" />
@@ -19,18 +19,18 @@ const MVCV = () => {
             personalized and reliable virtual solutions, we strive to create a
             positive impact on the organizations and communities we serve.
           </p>
-          <img src={ mission } alt="" />
+          <img src={mission} alt="" />
         </div>
 
         <div className="block text-justify">
           <TitleHead header="Vision" />
           <br />
           <p>
-            At Hire Culture, our vision is to help mission-driven individuals and
-            teams of all sizes reach their full potential through remote support
-            and virtual services.
+            At Hire Culture, our vision is to help mission-driven individuals
+            and teams of all sizes reach their full potential through remote
+            support and virtual services.
           </p>
-          <img src={ vision } alt="" />
+          <img src={vision} alt="" />
         </div>
 
         <div className="block text-justify">
@@ -51,17 +51,18 @@ const MVCV = () => {
                 <b>True success</b> is the result of personal{" "}
                 <b>responsibility</b> and <b>integrity</b>.
               </li>
-            </ul>
-
-            <ul>
               <li>
-                <b>Healthy leaders inspire growth</b> through <b>vision, influence</b>, and <b>empowerment</b>.
+                <b>Healthy leaders inspire growth</b> through{" "}
+                <b>vision, influence</b>, and <b>empowerment</b>.
               </li>
-              <li><b>Serving others</b> well means being <b>adaptable, authentic</b>, and <b>accepting</b>.</li>
+              <li>
+                <b>Serving others</b> well means being{" "}
+                <b>adaptable, authentic</b>, and <b>accepting</b>.
+              </li>
             </ul>
           </div>
 
-          <img src={ core_val } alt="" />
+          <img src={core_val} alt="" />
         </div>
       </div>
     </section>

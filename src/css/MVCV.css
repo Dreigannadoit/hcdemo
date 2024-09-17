@@ -16,7 +16,7 @@
 
 .mvcv .block{
     position: relative;
-    padding: 4%;
+    padding: 5%;
     background-color: #fff;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -51,4 +51,11 @@
     right: -15%;
     bottom: -25%;
     opacity: 0.1;
+}
+
+.mvcv .block:nth-child(3) img{
+    right: -5%;
+    bottom: -20%;
+    opacity: 0.1;
+    height: 150%;
 }

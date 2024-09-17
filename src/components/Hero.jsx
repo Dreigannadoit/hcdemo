@@ -16,7 +16,8 @@ const Hero = () => {
         <div className="img">
           <img src={hero} alt="hero" />
         </div>  
-        <div className="header .padding_r_side">
+
+        <div className="header">
           <div className="title">
             <h1 className='poppins-semibold text-justify'>We Don’t Just Fill Positions -</h1>
             <h1 className='poppins-semibold text-justify'>We Build Teams</h1>
