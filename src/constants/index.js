@@ -12,6 +12,7 @@ import {
     FB,
     INSTA,
     YT,
+    proj_bs_va,
 } from '../assets/icons';
 
 import { thumb_danny_gonzalez_roberts, thumb_demo_perspn_1 } from '../assets/testimonial/thumbnail';
@@ -52,6 +53,7 @@ export const socials = [
 
 export const services = [
     {
+        className: "full_time",
         icon: full_va,
         title : "Full-Time VA",
         price_type: "Price Range",
@@ -70,6 +72,7 @@ export const services = [
         cta: "",
     },
     {
+        className: "part_time",
         icon: prt_va,
         title : "Part-Time VA",
         price_type: "Price Range",
@@ -85,7 +88,8 @@ export const services = [
         cta: "",
     },
     {
-        icon: prt_va,
+        className: "proj_base",
+        icon: proj_bs_va,
         title : "Project Based",
         price_type: "Custom Pricing",
         price_initial: "",

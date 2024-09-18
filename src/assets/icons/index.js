@@ -12,6 +12,7 @@ import FB from "./FB.png"
 import INSTA from "./iNSTA.png"
 import YT from "./YT.png"
 import exit_btn from "./exit_btn.png"
+import proj_bs_va from "./proj_bs_va.png"
 
 export {
     admin_suprt,
@@ -27,5 +28,6 @@ export {
     FB,
     INSTA,
     YT,
-    exit_btn
+    exit_btn,
+    proj_bs_va
 };

@@ -13,7 +13,7 @@ const Services = () => {
 
       <div className="blocks poppins-regular">
         {services.map((service, index) => (
-          <div className="block" key={index}>
+          <div className={`block ${service.className}`} key={index}>
             <img src={service.icon} alt={service.title} />
             <h1 className="poppins-bold">{service.title}</h1>
             <p>{service.price_type}</p>
