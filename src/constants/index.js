@@ -210,6 +210,10 @@ export const testimonials = [
     },
 ];
 
+export const none = [
+    "Hello I am Robert Andrei N. Bamba The Person who made this website"
+]
+
 export const leads = [
     {
         imgUrl: kyle,
