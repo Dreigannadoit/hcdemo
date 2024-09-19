@@ -232,7 +232,7 @@ export const leads = [
     },
     {
         imgUrl: just,
-        name: "Justin Winsteadr",
+        name: "Justin Winstead",
         position: "Strategic Advisor, Pioneer Connector",
 
         discriprion: 
