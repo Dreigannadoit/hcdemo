@@ -22,9 +22,11 @@ const Lead = ({ onLeadClick }) => {
               <br />
 
               <div className="link">
-                <button className="cta poppins-regular" onClick={onLeadClick}>
-                  Read More
-                </button>
+                <a href={`#${lead.class}`}>
+                  <button className="cta poppins-regular" onClick={onLeadClick}>
+                    Read More
+                  </button>
+                </a>
               </div>
             </div>
           </div>

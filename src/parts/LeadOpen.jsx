@@ -12,7 +12,7 @@ const LeadOpen = ({ isLeadOpen, onExitLeadClick }) => {
         </button>
 
         {leads.map((lead) => (
-          <div className={`block ${lead.class}`}>
+          <div className={`block ${lead.class}`} id={`${lead.class}`}>
             <img src={lead.imgUrl} alt="#" />
 
             <div className="content">
