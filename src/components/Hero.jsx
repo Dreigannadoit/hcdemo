@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
           <p className='poppins-light'>Elevate Your Team with CULTURE</p>
 
-          <a href={bookMeeting} className='poppins-light'>Learn More Now</a>
+          <a href={bookMeeting} target='_blank' className='poppins-light'>Learn More Now</a>
 
           <div className="socials">
             {socials.map((social) => (
