@@ -65,29 +65,53 @@ body:has(.testi_full.active){
     position: fixed;
     top: 0;
     right: -100%;
-    height: 100%;
-    width: 0%;
-    background: var(--color-white);
+    max-height: 100%;
+    width: 100%;
+    background: #fff;
     z-index: 9999999;
     overflow: hidden;
-    transition: all 700ms cubic-bezier(.73,.11,.1,.98);
+    transition: all 700ms 0ms cubic-bezier(.73,.11,.1,.98);
 }
 
 .testi_full.active{
     right: 0%;
-    width: 100%;
     overflow-y: auto;
+    transition: all 700ms 500ms cubic-bezier(.73,.11,.1,.98);
+}
+
+.testi_full::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 100%;
+    background: var(--color-light);
+    z-index: -1;
+    transition: 
+        right 700ms 500ms cubic-bezier(.73,.11,.1,.98),
+        background 700ms 0ms cubic-bezier(.73,.11,.1,.98)
+    ;
+}
+
+.testi_full.active::before{
+    background: #ffff;
+    right: 0;
+    transition: 
+        right 700ms 0ms cubic-bezier(.73,.11,.1,.98),
+        background 700ms 500ms cubic-bezier(.73,.11,.1,.98)
+    ;
 }
 
 .testi_full .container{
-    position: relative;
     height: 100%;
     width: 100%;
-
+    
+    background: #fff;
     display: flex;
     flex-direction: column;
-    gap: 10%;
-    padding: 10% 0;
+    gap: 90px;
+    padding: 10% 0; 
 }
 
 .testi_full .container button{
@@ -98,8 +122,8 @@ body:has(.testi_full.active){
 }
 
 .testi_full.active .container button{
-    right: 10%;
-    transition: all 700ms 400ms cubic-bezier(.73,.11,.1,.98);
+    right: 7%;
+    transition: all 700ms 600ms cubic-bezier(.73,.11,.1,.98);
 }
 
 .testi_full .container .block{ 
@@ -108,20 +132,29 @@ body:has(.testi_full.active){
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-    gap: 30px;
+    flex-direction: row;
+    gap: 5%;
 }
 
+.testi_full .container .block:nth-child(2),
+.testi_full .container .block:nth-child(4){
+    flex-direction: row-reverse;
+}
 
 .testi_full .container .block hr{
     width: 100%;
 }
 
 .testi_full .container .block img{
-    width: 60%;
+    width: 40%;
+    background: #fff;
 }
 
 .testi_full .container .block .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
     opacity: 0;
     width: 65%;
     transition: all 700ms 100ms cubic-bezier(.73,.11,.1,.98);
@@ -129,7 +162,7 @@ body:has(.testi_full.active){
 
 .testi_full.active .container .block .content{
     opacity: 1;
-    transition: all 700ms 700ms cubic-bezier(.73,.11,.1,.98);
+    transition: all 700ms 900ms cubic-bezier(.73,.11,.1,.98);
 }
 
 .testi_full .container .block .content h1{
@@ -143,6 +176,45 @@ body:has(.testi_full.active){
     opacity: 0.6;
 }
 
+.testi_full .container .block .content p{
+    font-size: 1.05vw;
+}
+
+.testi_full .container .block .content h1,
+.testi_full .container .block .content h2,
+.testi_full .container .block .content p{
+    transform: translateY(-50%);
+    transition: all 700ms 100ms cubic-bezier(.73,.11,.1,.98);
+}
+
+.testi_full.active .container .block .content h1,
+.testi_full.active .container .block .content h2,
+.testi_full.active .container .block .content p{
+    transform: translateY(0%);
+    transition: all 700ms 800ms cubic-bezier(.73,.11,.1,.98);
+}
+
 .testi_full .container .block button{
     border: none;
+}
+
+
+
+@media only screen 
+   and (min-width : 1200px) {
+    .testi_full .container{
+        gap: 90px;
+    }
+    
+}
+
+@media only screen 
+   and (min-width : 1600px) {
+    .testi_full .container{
+        gap: 190px;
+    }
+
+    .testi_full .container .block .content p{
+        font-size: 0.8vw;
+    }
 }

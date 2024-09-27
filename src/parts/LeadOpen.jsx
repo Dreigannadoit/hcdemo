@@ -19,11 +19,12 @@ const LeadOpen = ({ isLeadOpen, onExitLeadClick }) => {
               <h1 className="poppins-semibold">{lead.name}</h1>
               <h2 className="poppins-light">{lead.position}</h2>
               <br />
-              <p className="text-justify poppins-regular">{lead.discriprion}</p>
+              <p
+                className="text-justify poppins-regular"
+                dangerouslySetInnerHTML={{ __html: lead.summary }}
+              />
               <br />
             </div>
-
-            <hr />
           </div>
         ))}
       </div>

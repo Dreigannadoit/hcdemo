@@ -25,7 +25,7 @@ const Skills = () => {
     <section className="skills padding_side" id='skills'>
       <div className="skill_container">
         <TitleHead
-          header="Your Virtual Assistant’s Skill Set"
+          header="Virtual Assistant Benefits"
           subheader="Efficiently Handling a Wide Range of Tasks"
           ctaType="Get Free Guide"
           link="#"
@@ -57,7 +57,7 @@ const Skills = () => {
           >
             <div className="skillhead padding_side">
               <h1>VA Interest Form</h1>
-              <a href={interestForm} className="cta poppins-regular">LET’S GET STARTED</a>
+              <a href={interestForm} className="cta poppins-regular">ARE WE THE ONE?</a>
             </div>
           </div>  
         </div>

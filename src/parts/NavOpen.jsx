@@ -19,7 +19,7 @@ const NavOpen = ({ isNavOpen, navExit }) => {
               <a onClick={navExit} href="#services">Services</a>
             </li>
             <li>
-              <a onClick={navExit} href="#skills">Virtual Assistant’s Skill Set</a>
+              <a onClick={navExit} href="#skills">Virtual Assistant Benefits</a>
             </li>
             <li>
               <a onClick={navExit} href="#process">Process</a>

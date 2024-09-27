@@ -26,7 +26,7 @@ const MVCV = () => {
           <TitleHead header="Vision" />
           <br />
           <p>
-            At Hire Culture, our vision is to help mission-driven individuals
+            At hireCULTURE, our vision is to help mission-driven individuals
             and teams of all sizes reach their full potential through remote
             support and virtual services.
           </p>

@@ -7,7 +7,7 @@ const Diff = () => {
     <section className="diff padding_side" id='diff'>
       <div className="content">
         <div className="header">
-          <h1>Our difference...</h1>
+          <h1>Our Difference...</h1>
           <h1>We Shape Their Skills. </h1>
           <h1>We Boost Yours Too.</h1>
         </div>
