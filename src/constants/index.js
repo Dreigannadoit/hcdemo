@@ -226,6 +226,7 @@ export const none = [
 
 export const leads = [
     {
+        class: "kyle",
         imgUrl: kyle,
         name: "Kyle Draper",
         position: "Founder and CEO, Connector Creative",
@@ -241,6 +242,7 @@ export const leads = [
         shortDiscription: "Kyle is a visionary entrepreneur and transformative leader in the real estate, mortgage, insurance, and small business space. As the founder and CEO of multiple successful ventures, including Content Compounding and Hire Culture Virtual Assistants, Kyle has demonstrated a keen ability to identify market needs and create innovative solutions.", 
     },
     {
+        class: "just",
         imgUrl: just,
         name: "Justin Winstead",
         position: "Strategic Advisor, Pioneer Connector",
@@ -252,6 +254,7 @@ export const leads = [
         shortDiscription:"Growing up in a rural area and with meager means, Justin could have easily given up on his goals. Instead, he chose to use his circumstances as motivation to create a better life for himself. He pursued an education, attended seminary, and started his own successful business. ", 
     },
     {
+        class: "gwyn",
         imgUrl: gwyn,
         name: "Gwynda Miranda",
         position: "Managing Director, Guardian Nurturer",
@@ -265,6 +268,7 @@ export const leads = [
         shortDiscription:"As a Guardian Nurturer, Gwynda Miranda creates a stable, caring environment at hireCULTURE. Her Guardian voice emphasizes consistency and reliability, while her Nurturer voice highlights her dedication to serving others.", 
     },
     {
+        class: "aiko",
         imgUrl: aiko,
         name: "Aiko Perez",
         position: "Virtual Assistant Manager, Pioneer Creative",

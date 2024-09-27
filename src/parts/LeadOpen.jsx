@@ -12,7 +12,7 @@ const LeadOpen = ({ isLeadOpen, onExitLeadClick }) => {
         </button>
 
         {leads.map((lead) => (
-          <div className="block">
+          <div className={`block ${lead.class}`}>
             <img src={lead.imgUrl} alt="#" />
 
             <div className="content">
@@ -22,6 +22,8 @@ const LeadOpen = ({ isLeadOpen, onExitLeadClick }) => {
               <p className="text-justify poppins-regular">{lead.discriprion}</p>
               <br />
             </div>
+
+            <hr />
           </div>
         ))}
       </div>
