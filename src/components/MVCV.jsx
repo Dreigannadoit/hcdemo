@@ -8,8 +8,13 @@ const MVCV = () => {
     <section className="mvcv padding_side" id="mvcv">
       <div className="content">
         <div className="block text-justify">
-          <TitleHead header="Mission" />
+          <div className="title">
+            <img src={mission} alt="" />
+            <TitleHead header="Mission" />
+          </div>
+
           <br />
+
           <p>
             Our mission is to provide exceptional remote support by finding,
             onboarding, and training virtual assistants for those needing help
@@ -23,8 +28,13 @@ const MVCV = () => {
         </div>
 
         <div className="block text-justify">
-          <TitleHead header="Vision" />
+          <div className="title">
+            <img src={vision} alt="" />
+            <TitleHead header="Vision" />
+          </div>
+
           <br />
+
           <p>
             At hireCULTURE, our vision is to help mission-driven individuals
             and teams of all sizes reach their full potential through remote
@@ -34,30 +44,35 @@ const MVCV = () => {
         </div>
 
         <div className="block text-justify">
-          <TitleHead header="Core Values" />
+          <div className="title">
+            <img src={core_val} alt="" />
+            <TitleHead header="Core Values" />
+          </div>
+
           <br />
+
           <p>We believe...</p>
           <div className="lists">
             <ul>
               <li>
-                <b>Everyone</b> has a <b>purpose</b> and <b>message</b> to share
+                <span>Everyone</span> has a <span>purpose</span> and <span>message</span> to share
                 with others.
               </li>
               <li>
-                <b>Great teams</b> create a culture of <b>compassion</b> and{" "}
-                <b>trust</b>.
+                <span>Great teams</span> create a culture of <span>compassion</span> and
+                <span>trust</span>.
               </li>
               <li>
-                <b>True success</b> is the result of personal{" "}
-                <b>responsibility</b> and <b>integrity</b>.
+                <span>True success</span> is the result of personal
+                <span>responsibility</span> and <span>integrity</span>.
               </li>
               <li>
-                <b>Healthy leaders inspire growth</b> through{" "}
-                <b>vision, influence</b>, and <b>empowerment</b>.
+                <span>Healthy leaders inspire growth</span> through
+                <span>vision, influence</span>, and <span>empowerment</span>.
               </li>
               <li>
-                <b>Serving others</b> well means being{" "}
-                <b>adaptable, authentic</b>, and <b>accepting</b>.
+                <span>Serving others</span> well means being
+                <span>adaptable, authentic</span>, and <span>accepting</span>.
               </li>
             </ul>
           </div>
