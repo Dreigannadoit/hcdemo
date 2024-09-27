@@ -2,7 +2,7 @@ import React from 'react'
 
 import { logo_row_white } from '../assets/logo'
 import { hero } from '../assets/img'
-import { socials } from "../constants"
+import { bookMeeting, socials } from "../constants"
 import '../css/Hero.css'
 
 const Hero = () => {
@@ -24,11 +24,11 @@ const Hero = () => {
           </div>
           <p className='poppins-light'>Elevate Your Team with CULTURE</p>
 
-          <a href="#" className='poppins-light'>Learn More Now</a>
+          <a href={bookMeeting} className='poppins-light'>Learn More Now</a>
 
           <div className="socials">
             {socials.map((social) => (
-              <a href={social.link} rel="noopener noreferrer">
+              <a href={social.link} target='_blank' rel="noopener noreferrer">
                 <img src={social.icon} alt="" />
               </a>
             ))}

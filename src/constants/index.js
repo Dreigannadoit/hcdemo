@@ -39,17 +39,27 @@ import {
 export const socials = [
     {
         icon:FB,
-        link: "#"
+        link: "https://www.facebook.com/profile.php?id=61550935252991"
     },
     {
         icon:INSTA,
-        link: "#"
+        link: "https://www.instagram.com/hire_culture_va/"
     },
     {
         icon:YT,
-        link: "#"
+        link: "https://www.youtube.com/@HireCultureVA"
     }
 ];
+
+const bookMeeting = "https://calendly.com/coachkyledraper/hire-culture-va-consultation";
+const interestForm = "https://form.jotform.com/240104335237142";
+const freeGuide = "https://mailchi.mp/cf134f28f79b/3ojr45sn50";
+
+export {
+    bookMeeting,
+    interestForm,
+    freeGuide
+}
 
 export const services = [
     {

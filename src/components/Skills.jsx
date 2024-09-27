@@ -8,6 +8,7 @@ import {
   lead_nurt,
   markt_n_advert,
 } from "../assets/icons";
+import { interestForm } from "../constants";
 
 const Skills = () => {
   const [activeBlocks, setActiveBlocks] = useState([]);
@@ -56,7 +57,7 @@ const Skills = () => {
           >
             <div className="skillhead padding_side">
               <h1>VA Interest Form</h1>
-              <a href="#" className="cta poppins-regular">LET’S GET STARTED</a>
+              <a href={interestForm} className="cta poppins-regular">LET’S GET STARTED</a>
             </div>
           </div>  
         </div>

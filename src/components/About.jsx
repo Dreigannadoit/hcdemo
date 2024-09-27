@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/About.css'
 import TitleHead from '../parts/TitleHead'
 import { about } from '../assets/img'
+import { bookMeeting } from '../constants'
 
 const About = () => {
   return (
@@ -18,7 +19,7 @@ const About = () => {
         <br />
         
         <div>
-          <a href="#" className="cta">Book a Meeting</a>
+          <a href={bookMeeting} target='_blank' className="cta">Book a Meeting</a>
         </div>
       </div>
 

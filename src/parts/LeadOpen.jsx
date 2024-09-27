@@ -1,32 +1,32 @@
-import React from 'react'
+import React from "react";
 import "../css/Lead.css";
-import { leads } from '../constants';
-import { exit_btn } from '../assets/icons';
+import { leads } from "../constants";
+import { exit_btn } from "../assets/icons";
 
 const LeadOpen = ({ isLeadOpen, onExitLeadClick }) => {
   return (
     <div className={`testi_full ${isLeadOpen ? "active" : ""} padding_side`}>
-        <div className="container">
-            <button className="exit" onClick={onExitLeadClick}>
-                <img src={exit_btn} alt="" />
-            </button>
+      <div className="container">
+        <button className="exit" onClick={onExitLeadClick}>
+          <img src={exit_btn} alt="" />
+        </button>
 
-            {leads.map((lead) => (
-            <div className="block">
-                <img src={lead.imgUrl} alt="#" />
+        {leads.map((lead) => (
+          <div className="block">
+            <img src={lead.imgUrl} alt="#" />
 
-                <div className="content">
-                <h1 className='poppins-semibold'>{lead.name}</h1>
-                <h2 className='poppins-light'>{lead.position}</h2>
-                <br />
-                <p className='text-justify poppins-regular'>{lead.discriprion}</p>
-                <br />
-                </div>
+            <div className="content">
+              <h1 className="poppins-semibold">{lead.name}</h1>
+              <h2 className="poppins-light">{lead.position}</h2>
+              <br />
+              <p className="text-justify poppins-regular">{lead.discriprion}</p>
+              <br />
             </div>
-            ))}
-        </div>
+          </div>
+        ))}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default LeadOpen
+export default LeadOpen;

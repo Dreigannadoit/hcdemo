@@ -11,7 +11,7 @@ const Footer = () => {
           <img src={logo_row} alt="" />
           <div className="socials">
             {socials.map((social) => (
-              <a href={social.link} rel="noopener noreferrer">
+              <a href={social.link} target='_blank' rel="noopener noreferrer">
                 <img src={social.icon} alt="" />
               </a>
             ))}

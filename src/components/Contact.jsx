@@ -1,7 +1,7 @@
 import React from 'react';
 import "../css/Contact.css";
 import { logo_col } from '../assets/logo';
-import { socials } from '../constants';
+import { bookMeeting, interestForm, socials } from '../constants';
 import TitleHead from '../parts/TitleHead';
 
 const Contact = () => {
@@ -30,7 +30,7 @@ const Contact = () => {
         <div>
           <div className="form">
             <h1>FILL OUT FORM</h1>
-            <a href="#" className="cta">LET'S GET STARTED</a>
+            <a href={interestForm} target='_blank' className="cta">LET'S GET STARTED</a>
           </div>
 
           <div className="email">
@@ -43,7 +43,7 @@ const Contact = () => {
         <div>
           <div className="guide">
             <h1>TO BOOK A MEETING</h1>
-            <a href="#" className="cta">CLICK HERE!</a>
+            <a href={bookMeeting} target='_blank' className="cta">CLICK HERE!</a>
           </div>
 
           <div className="socials">

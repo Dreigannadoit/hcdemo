@@ -44,7 +44,7 @@ const NavOpen = ({ isNavOpen, navExit }) => {
 
         <div className="links">
           {socials.map((social) => (
-            <a href={social.link} rel="noopener noreferrer" key={social.link}>
+            <a href={social.link} bookMeetingrel="noopener noreferrer" key={social.link}>
               <img src={social.icon} alt="" />
             </a>
           ))}

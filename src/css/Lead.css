@@ -90,11 +90,10 @@ body:has(.testi_full.active){
 .testi_full .container{
     height: 100%;
     width: 100%;
-    padding: 10% 0;
 
     display: flex;
     flex-direction: column;
-    gap: 15%;
+    gap: 10%;
 }
 
 .testi_full .container button{
@@ -114,7 +113,7 @@ body:has(.testi_full.active){
 }
 
 .testi_full .container .block img{
-    width: 30%;
+    width: 60%;
 }
 
 .testi_full .container .block .content{

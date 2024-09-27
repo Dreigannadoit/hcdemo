@@ -1,5 +1,6 @@
 import React from 'react'
 import "../css/CtaBlock.css";
+import { freeGuide } from '../constants';
 
 const CtaBlock = () => {
   return (
@@ -10,7 +11,7 @@ const CtaBlock = () => {
           <h1>hiring and training</h1>
           <h1>your own VA</h1>
         </div>
-        <a href="#" className="cta">Click Here</a>
+        <a href={freeGuide} target='_blank' className="cta">Click Here</a>
       </div>
     </section>
   )

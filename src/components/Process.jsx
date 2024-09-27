@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/Process.css'
 import TitleHead from '../parts/TitleHead'
 import { mid } from '../assets/img'
-import { steps, testimonials } from '../constants'
+import { bookMeeting, steps, testimonials } from '../constants'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -36,7 +36,7 @@ const Process = () => {
             ))}
           </div>
 
-          <a href='#' className="cta .poppins-regular ">Get Started</a>
+          <a href={bookMeeting} target='_blank' className="cta .poppins-regular ">Get Started</a>
         </div>
 
       </div>

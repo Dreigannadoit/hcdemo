@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Services.css";
-import { services } from "../constants";
+import { bookMeeting, services } from "../constants";
 import TitleHead from "../parts/TitleHead";
 
 const Services = () => {
@@ -35,7 +35,7 @@ const Services = () => {
             <br />
             {service.cta && <h1 className="more">{service.cta}</h1>}
             <br />
-            {service.cta_btn && <a className="cta" href="#">{service.cta_btn}</a>}
+            {service.cta_btn && <a className="cta" target='_blank' href={bookMeeting}>{service.cta_btn}</a>}
           </div>
         ))}
       </div>
