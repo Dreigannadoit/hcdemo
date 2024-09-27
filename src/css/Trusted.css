@@ -6,7 +6,7 @@
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-    gap: 20%;
+    gap: 30%;
 
     padding: 10% 0;
 }
@@ -37,7 +37,7 @@
 
 
 .cards_con .c_1 img{
-    height: 90px;
+    height: 60px;
 }
 
 .cards_con .c_1 {
