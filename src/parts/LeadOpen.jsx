@@ -21,7 +21,7 @@ const LeadOpen = ({ isLeadOpen, onExitLeadClick }) => {
               <br />
               <p
                 className="text-justify poppins-regular"
-                dangerouslySetInnerHTML={{ __html: lead.summary }}
+                dangerouslySetInnerHTML={{ __html: lead.discriprion }}
               />
               <br />
             </div>
