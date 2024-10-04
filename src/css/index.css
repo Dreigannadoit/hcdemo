@@ -87,6 +87,29 @@ section{
   text-transform: uppercase;
 }
 
+@media only screen 
+   and (max-width : 1000px) {
+   
+  .head .title h1{
+    font-size: 6vw;
+  }
+
+  .head .title h2{
+    font-size: 3vw;
+  }
+}
+
+@media only screen 
+   and (max-width : 600px) {
+   
+  .head .title h1{
+    font-size: 8vw;
+  }
+
+  .head .title h2{
+    font-size: 4vw;
+  }
+}
 
 .process .head .title h1,
 .process .head .title h2{

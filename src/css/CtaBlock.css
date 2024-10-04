@@ -1,9 +1,15 @@
 .cta_block{
     height: 70%;
     width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cta_block .container{
+    width: 100%;
+    
     margin: 5% 0;
     padding: 5% 0;
     border-bottom: 5px var(--color-nuetral) solid;
@@ -14,7 +20,21 @@
 }
 
 .cta_block .container h1{
-    font-size: 4vw;
     text-transform: uppercase;
     color: var(--color-nuetral);
+}
+
+@media only screen 
+   and (max-width : 1000px) {  
+    .cta_block .container{
+        margin: 5% 0;
+        padding: 5% 0;
+        border-bottom: 5px var(--color-nuetral) solid;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: space-between;
+        align-items: center;
+    }
 }

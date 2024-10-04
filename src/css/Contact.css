@@ -114,3 +114,41 @@
 .contact .links_side>div .socials .link img{
     filter: invert(100%)
 }
+
+@media only screen 
+   and (max-width : 1000px) {  
+    .contact{
+        height: 130%;
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 5%;
+    }
+
+    .contact .form_side{
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+    .contact .links_side{
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    .contact .links_side>div div h1{
+        font-size: 2vw;
+    }
+    
+    .contact .links_side > div div a.cta {
+        font-size: 1.5vw;
+    }
+}

@@ -49,3 +49,34 @@ footer .footer_top .left{
     flex-direction: row;
     gap: 5%;
 }
+
+@media only screen 
+   and (max-width : 1000px) {  
+    footer .footer_top {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer .footer_top .rght{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10%;
+    }
+    footer .footer_top .left{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: row;
+        gap: 5%;
+    }
+}

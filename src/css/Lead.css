@@ -22,11 +22,7 @@
     gap: 5%;
 }
 
-.lead .container .block:nth-child(3){
-    flex-direction: row-reverse;
-
-}
-
+.lead .container .block:nth-child(3),
 .lead .container .block:nth-child(5){
     flex-direction: row-reverse;
 
@@ -217,4 +213,39 @@ body:has(.testi_full.active){
     .testi_full .container .block .content p{
         font-size: 0.8vw;
     }
+}
+
+@media only screen 
+   and (max-width : 900px) {
+    .lead .container{
+        width: 100%;
+        padding: 10% 0;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .lead .container .block{ 
+        flex-direction: column;
+        gap: 35px;
+    }
+    
+    .lead .container .block:nth-child(3),
+    .lead .container .block:nth-child(5){
+        flex-direction: column;
+    }
+
+    .lead .container .block img{
+        width: 60%;
+    }
+    
+    .lead .container .block .content h1{
+        font-size: 5.5vw;
+    }
+    
+    .lead .container .block .content h2{
+        font-size: 3.5vw;
+    }
+    
 }

@@ -45,7 +45,7 @@ const Process = () => {
         <TitleHead header="Hear from Our Clients"/>
 
         <Swiper
-          slidesPerView={3}
+          slidesPerView={1}
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
@@ -56,21 +56,31 @@ const Process = () => {
             clickable: true,
           }}
           navigation={true}
+          breakpoints={{
+            1000: {
+              slidesPerView: 3, // Show only 1 slide when the viewport width is <= 1000px
+            },
+
+            
+            700: {
+              slidesPerView: 2, // Show only 1 slide when the viewport width is <= 1000px
+            },
+          }}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
           {testimonials.map((testimonial) => (
-            <SwiperSlide>
+            <SwiperSlide key={testimonial.name}>
               <a href={testimonial.video} target='_blank'>
                 <div className="front_drop">
                   <h1>{testimonial.name}</h1>
                 </div>
-                
                 <img src={testimonial.thumbnail} alt="" />
               </a>
             </SwiperSlide>
           ))}
         </Swiper>
+
       </div>
     </section>
   )

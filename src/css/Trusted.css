@@ -6,20 +6,30 @@
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-    gap: 30%;
 
     padding: 10% 0;
 }
 
-.carousel_container h1{
-    color: var(--color-nuetral);
-    font-size: 3vw;
+.carousel_container .head{
+    justify-content: center;
+    align-items: center;
 }
 
 .cards_con{
     position: relative;
     height: 100%;
     width: 100%;
+}
+
+
+@media only screen 
+   and (max-width : 1000px) {
+   
+    .cards_con{
+        position: relative;
+        height: 50%;
+    }
+    
 }
 
 .cards_con .c_1 {
@@ -29,7 +39,7 @@
     width: 200%;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content:c;
     align-items: center;
     flex-direction: row;
     gap: 90px;

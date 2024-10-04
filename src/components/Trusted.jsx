@@ -1,13 +1,17 @@
 import React from 'react'
 import { cardDetails } from '../constants';
 import '../css/Trusted.css'
+import TitleHead from '../parts/TitleHead';
 
 const Trusted = () => {
   return (
     <section className="carousel_container"  id='trusted'>
-      <h1 className='poppins-semibold'>
-        Trusted by
-      </h1>
+      <TitleHead
+          header="Trusted By"
+          subheader=""
+          ctaType="Get Free Guide"
+          link="#"
+        />
       <div className="cards_con">
         <div className="c_1">
           {cardDetails.map((detail) => (

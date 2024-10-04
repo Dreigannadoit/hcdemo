@@ -1,5 +1,5 @@
 .about{
-    height: 100%;
+    height: auto;
     width: 100%;
 
     display: flex;
@@ -31,6 +31,7 @@
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    padding: 20% 0;
 }
 
 
@@ -39,7 +40,29 @@
 }
 
 .about img{
-    height: 100%;
     width: 50%;
     object-fit: contain;
+}
+
+@media only screen 
+   and (max-width : 1000px) {
+    .about{
+        flex-direction: column-reverse;
+    }
+
+    .about .content{
+        height: 100%;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        padding: 20% 0;
+    }
+    
+    .about img{
+        width: 100%;
+        object-fit: contain;
+    }
 }
