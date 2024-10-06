@@ -118,13 +118,13 @@
 @media only screen 
    and (max-width : 1000px) {  
     .contact{
-        height: 130%;
+        height: 190%;
         width: 100%;
     
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        gap: 5%;
+        gap: 15%;
     }
 
     .contact .form_side{
@@ -139,9 +139,32 @@
 
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
         gap: 5%;
+    }
+
+    .contact .links_side>div{
+        height: 55%;
+        width: 100%;
+    
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .contact .links_side>div div{
+        height: 100%;
+        width: 100%;
+    
+    
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5%;
+        margin: 10px 0;
     }
 
     .contact .links_side>div div h1{
@@ -150,5 +173,9 @@
     
     .contact .links_side > div div a.cta {
         font-size: 1.5vw;
+    }
+
+    .contact .links_side .socials{
+        opacity: 0;
     }
 }
