@@ -152,17 +152,17 @@ export const steps = [
   {
     stepNum: "1",
     head: "Identify your need",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    text: "During your onboarding meeting, we work with you to uncover your specific needs. This collaborative process helps us identify which tasks to prioritize for your business. ",
   },
   {
     stepNum: "2",
     head: "Find the right fit",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    text: "Based on your specific needs, we handle the legwork and ensure the virtual assistant is skilled and ready to tackle your tasks, so you can focus on growing your business. ",
   },
   {
     stepNum: "3",
     head: "Start delegating",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    text: "Once matched with your VA, share your task list, and let your assistant take care of the details, freeing up your time for what matters most. ",
   },
 ];
 
